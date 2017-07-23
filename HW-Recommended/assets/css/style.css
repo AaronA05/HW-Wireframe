@@ -1,0 +1,72 @@
+
+ul{
+	list-style-type: none;
+	margin-top: -10px;
+	margin-right: -10px;
+	margin-bottom: 100px;
+	margin-left: -10px;
+	padding: 0px;
+	padding-left: 50px;
+	padding-right: 0px;
+	overflow: hidden;
+	background-color: #fff;
+	border-bottom: 1px solid #dedcd8;
+	position: fixed;
+	width: 960px;
+}
+li{
+	display:inline-block;
+	float: right;
+}
+li a{
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #4aaaa5;
+}
+
+.connect{
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 270px;
+	float: left;
+	background-color: white;
+	border: 1px solid #dedcd8;
+}
+.main-bio{
+	float: left;
+	width: 650px;
+	display: inline-block;
+	background: #fff;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 10px;
+	height: auto;
+	border: 1px solid #dedcd8;
+}
+img{
+	float: left;
+	margin: 10px;
+}
+
+
+/*Sticky Footer Design*/
+html, body {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+.content {
+	flex: 1 0 auto;
+}
+
+.footer{
+	flex-shrink: 0;
+	padding: 20px;
+	text-align: center;
+}
