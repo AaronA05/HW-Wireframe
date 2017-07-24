@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5 {
 	float: left;
 	margin-left: 800px;
 	position: fixed;
-	z-index: -10;
+	/*z-index: -10;*/
 	border: 1px solid #dddddd;
 }
 
@@ -129,14 +129,14 @@ li a:hover{
 
 
 
-
+/*Sticky Footer CSS*/
 
 body, html {
 	height: 100%;
 }
 .all-content {
 	min-height: 100%;
-	margin-bottom: -60px;
+	/*margin-bottom: -60px;*/
 }
 
 .all-content:after {
